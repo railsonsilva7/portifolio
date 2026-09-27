@@ -22,7 +22,7 @@ export const HeroSection: React.FC = () => {
         <div className="space-y-4">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white font-sans">
             Engenharia de Sistemas,{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-cyan-300 to-indigo-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-zinc-200 to-zinc-400 font-bold drop-shadow-sm">
               Forense Digital
             </span>{" "}
             &amp; Resiliência Distribuída
