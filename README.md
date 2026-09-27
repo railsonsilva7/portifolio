@@ -19,20 +19,24 @@
 ## 🔬 Projetos em Destaque
 
 ### 1. Forensic Data Recovery Carver Suite
+
 - **Domínio:** Sistemas de Baixo Nível & Cibersegurança Forense
 - **Arquitetura:** Engine construída a partir de primeiros princípios (zero dependências externas). Implementa algoritmo de **Sliding Window Buffer** com overlap de segurança, garantindo consumo constante de memória (Zero OOM) durante a varredura de mídias de alta capacidade (`.raw`, `.img`, `.dd`).
 - **Padrões:** Duplo resumo criptográfico (**MD5 + SHA-256**) em estrita conformidade com **NIST SP 800-86** e **ISO/IEC 27037**.
 
 ### 2. Edge Telecom IMEI Core
+
 - **Domínio:** Sistemas Distribuídos & Telecomunicações
 - **Arquitetura:** Validação e geração de identificadores de hardware baseados em **3GPP TS 23.003** e **Algoritmo de Luhn** com complexidade temporal \(O(1)\).
 - **Implantação:** Execução em **V8 Isolates (Cloudflare Workers)** com latência de resposta global inferior a 15ms.
 
 ### 3. Kubernetes Multi-Cluster Orchestrator
+
 - **Domínio:** Cloud Infrastructure & Reliability Engineering (SRE)
-- **Arquitetura:** Gerenciamento declarativo de clusters, esteiras de deployment sem indisponibilidade (*zero-downtime rolling updates*) e auto-recuperação (*self-healing*) de contêineres.
+- **Arquitetura:** Gerenciamento declarativo de clusters, esteiras de deployment sem indisponibilidade (_zero-downtime rolling updates_) e auto-recuperação (_self-healing_) de contêineres.
 
 ### 4. Enterprise Operations & ERP Core
+
 - **Domínio:** Engenharia de Dados & Aplicações Críticas
 - **Arquitetura:** Automação de processos empresariais de alta concorrência com consistência transacional estrita (**ACID**) e mensageria assíncrona.
 
@@ -41,29 +45,35 @@
 ## ⚡ Como Executar Localmente
 
 ### Pré-requisitos
+
 - [Bun](https://bun.sh/) ou [Node.js 20+](https://nodejs.org/)
 - Git
 
 ### 1. Clonar o Repositório
+
 ```bash
-git clone git@github.com:railsonsilva7/Portif-lio.git
-cd Portif-lio
+git clone git@github.com:railsonsilva7/portifolio.git
+cd portifolio
 ```
 
 ### 2. Instalar Dependências
+
 ```bash
 bun install
 # ou: npm install
 ```
 
 ### 3. Executar o Servidor de Desenvolvimento
+
 ```bash
 bun dev
 # ou: npm run dev
 ```
+
 Acesse em seu navegador: `http://localhost:3000`
 
 ### 4. Compilar para Produção
+
 ```bash
 bun run build
 # ou: npm run build

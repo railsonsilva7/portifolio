@@ -163,7 +163,7 @@ export const InteractiveTerminal: React.FC = () => {
   };
 
   const handleCopyCode = () => {
-    navigator.clipboard.writeText("git clone git@github.com:railsonsilva7/Portif-lio.git");
+    navigator.clipboard.writeText("git clone git@github.com:railsonsilva7/portifolio.git");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
